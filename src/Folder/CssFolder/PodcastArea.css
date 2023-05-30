@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.Container {
+  height: 600px;
+  width: 100%;
+
+  margin: 70px auto;
+  display: flex;
+  text-align: center;
+  /* justify-content: center; */
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(https://images.pexels.com/photos/6686442/pexels-photo-6686442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+  background-position: center;
+  background-size: cover;
+}
+.BoxContainer {
+  height: 250px;
+  width: 60%;
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+  border: 0.2px solid white;
+  -webkit-box-shadow: 1px 5px 31px 2px rgba(62, 137, 187, 0.78);
+  -moz-box-shadow: 1px 5px 31px 2px rgba(71, 161, 177, 0.78);
+  box-shadow: 1px 5px 31px 2px rgba(73, 136, 179, 0.78);
+  transition: 1s;
+}
+.BoxContainer h1 {
+  color: rgb(255, 250, 250);
+
+  font-size: 80px;
+  font-weight: 900;
+  margin: 20px auto 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  text-shadow: 0 0 7px #84b1b1, 0 0 10px rgb(82, 122, 122), 0 0 21px #f3e3e3,
+    0 0 42px rgb(52, 121, 121), 0 0 82px rgb(83, 9, 50),
+    0 0 92px rgb(220, 240, 216), 0 0 102px rgb(192, 194, 216),
+    0 0 15px rgb(221, 221, 230);
+}
+
+.podbtn {
+  display: inline-block;
+  text-decoration: none;
+  color: #1e137e;
+  border: 1px solid #fff;
+  padding: 12px 40px;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  background: #ececf3;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+}
+.podbtn:hover {
+  color: #f3e3e3;
+  border: 1px solid #515580;
+  background: #321d5a;
+  transition: 1s;
+}
+
+/* media query */
+@media (max-width: 768px) {
+  .Container {
+    height: 400px;
+    margin: 50px auto;
+  }
+
+  .BoxContainer {
+    width: 80%;
+    height: 200px;
+  }
+
+  .BoxContainer h1 {
+    font-size: 40px;
+    margin: 15px auto 20px;
+  }
+
+  .podbtn {
+    padding: 10px 30px;
+    font-size: 16px;
+    /* border: 1px solid #fff; */
+  }
+}
