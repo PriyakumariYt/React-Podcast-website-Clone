@@ -21,6 +21,8 @@ import "./Folder/CssFolder/PodcastArea.css";
 
 import Availableweb from "./Folder/Component/Availableweb";
 import "./Folder/CssFolder/Availableweb.css";
+import NewEpisode from "./Folder/Component/NewEpisode";
+import "./Folder/CssFolder/NewEpisode.css";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
       <Main />
       <PodcastArea />
       <Availableweb />
+    <NewEpisode/>
       <Footer />
     </>
   );
