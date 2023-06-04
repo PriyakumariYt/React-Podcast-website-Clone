@@ -3,7 +3,7 @@ import React from "react";
 // import "./App.css";
 //  import CardApp from "./CardApp";
 //import Card from "./Card";
-import Header from "./Folder/Component/Header";
+import { Header, showMenu } from "./Folder/Component/Header";
 
 import Main from "./Folder/Component/main";
 import "./Folder/CssFolder/Header.css";
